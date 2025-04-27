@@ -1217,38 +1217,4 @@
 }
   }
 
- @media only screen and (max-width:890px) {
-    .header-img{
-        margin-top: 1vw;
-        width:90%;
-        height: auto;
-    }
-    
-    .description{
-        font-size: 1.5rem;
-    }
-    .subheader{
-        font-size: 15px;
-    }
-
-    .my-page .mainTextMoon{
-        background-color: #F1F1F1;
-        align-items: center;
-        justify-content: center;
-        margin-left:7%;
-        margin-right: 7%;
-    }
-    .eighty {
-        width: 97%;
-        height: auto;
-    }
-
-    .my-page .h1{
-        font-size: 50;
-}
-}
-
- #portfolio-page{
-     background-color: #F9FCFF;
- }
  
