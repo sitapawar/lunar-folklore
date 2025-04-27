@@ -37,6 +37,7 @@
   */
  html {
      font-size: 10px;
+     zoom:90%;
  }
  
  @media only screen and (max-width:1024px) {
@@ -1886,7 +1887,7 @@
            margin-right: 14%;
        }
        h1{
-           font-size:75px;
+           font-size:65px;
            font-family: 'Playfair Display SC', serif;
            text-align: center;
            align-items: center;
