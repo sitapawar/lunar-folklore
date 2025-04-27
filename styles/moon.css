@@ -707,51 +707,50 @@
  
  .header-img{
      margin-top: 2vw;
-     height:30rem;
+     width:70%;
+     height: auto;
  }
  
+
+ 
  @media (max-width: 650px) {
-    .my-page {
-        .quote-container {
-            flex-direction: column
-        };
-        
-    .mainTextMoon{
+    .my-page .quote-container {
+        flex-direction: column;
+    }
+    .my-page .mainTextMoon {
         background-color: #F1F1F1;
         align-items: center;
         justify-content: center;
-        margin-left:5%;
+        margin-left: 5%;
         margin-right: 5%;
     }
-    .moonQuote2, .moonQuote2 i {
+    .my-page .moonQuote2, .moonQuote2 i {
         color: #180645;
         line-height: 33px;
         font-size: 15px;
-      }
+    }
+    .my-page .lead {
+        font-size: 12px;
+    }
 }
-  }
-  @media (max-width: 800px) {
-    .my-page {
-        .quote-container2 {
-            flex-direction: column
-        };
-        
-    .mainTextMoon{
+
+@media (max-width: 800px) {
+    .my-page .quote-container2 {
+        flex-direction: column;
+    }
+    .my-page .mainTextMoon {
         background-color: #F1F1F1;
         align-items: center;
         justify-content: center;
-        margin-left:7%;
+        margin-left: 7%;
         margin-right: 7%;
     }
-    h1{
+    .my-page h1 {
         font-size: 40px;
     }
-    .moonQuote2, .moonQuote2 i {
+    .my-page .moonQuote2, .moonQuote2 i {
         color: #180645;
         line-height: 33px;
         font-size: 20px;
-      }
+    }
 }
-  }
-
- 
