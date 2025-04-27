@@ -1931,7 +1931,6 @@
             background-color: transparent;  /* remove background color */
             height: 0px;                    /* no height needed, just the border */
             align-items: center; 
-            margin-left: 7%;
         }
        .moonQuote{
          /* font-style: italic; */
