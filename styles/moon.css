@@ -102,6 +102,9 @@
      font-style: normal;
      font-weight: normal;
  }
+ b{
+    font-weight: bold;
+ }
  em, i {
      font-family: "lora-italic", serif;
  }
@@ -407,6 +410,8 @@
          margin-right: 20%;
         
      }
+    
+
  
      .my-page {
         background-color: #F9FCFF;
@@ -732,6 +737,13 @@
     .my-page .lead {
         font-size: 12px;
     }
+    .my-page p i {
+        font-size: 12px;
+    }
+    
+    .my-page .moonQuote, .my-page .moonQuote i, b{
+        font-size: 12px;
+    }
 }
 
 @media (max-width: 800px) {
@@ -753,4 +765,6 @@
         line-height: 33px;
         font-size: 20px;
     }
+
+
 }
