@@ -45,7 +45,8 @@
      margin-bottom: 1.2rem;
  }
  h1, .h01 {
-     font-size: 3.1rem;
+     font-size: 60px;
+
      line-height: 1.355;
      letter-spacing: -.1rem;
  }
@@ -278,7 +279,7 @@
      font-family: 'Playfair';
      /* font-family: 'Luminari'; */
      /* font-family: "poppins-semibold", serif; */
-     font-size: 3.6rem;
+     font-size: 60px;
      color: #180645;
      line-height: 1.25;
      margin-bottom: 1.2rem;
