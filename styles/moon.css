@@ -75,22 +75,6 @@
      color: #6e6e6e;
  }
  
- /**
-  * links - (_document-setup.scss)
-  * -------------------------------------------------------------------
-  */
- a, a:visited {
-     color: #000000;
-     -moz-transition: all 0.3s ease-in-out;
-     -o-transition: all 0.3s ease-in-out;
-     -webkit-transition: all 0.3s ease-in-out;
-     -ms-transition: all 0.3s ease-in-out;
-     transition: all 0.3s ease-in-out;
- }
- a:hover, a:focus, a:active {
-     color: #92A4E0;
-     outline: 0;
- }
  
  /** 
   * ===================================================================
@@ -1011,7 +995,7 @@
         font-size: 25px;
     }
      .quote-box{
-        display: flex;
+    display: flex;
       justify-content: center;
       align-items: center;
       height: auto; /* or 100vh for full viewport height */
@@ -1037,18 +1021,19 @@
       }
       
       .quote-image {
-        max-width: 100%;
+        width:100%;
         height: auto;
       }
  
        .subheader{
            color:#180645;
-           font-size: 23px;
+           font-size: 16px;
+           font-style: italic;
            font-family: "lora-regular", serif;
            text-align: center;
            margin-left: 0;
            margin-bottom: 0;
-           margin-top: 1.5vw;
+           margin-top: .2vw;
        }
        
        .listItem{
